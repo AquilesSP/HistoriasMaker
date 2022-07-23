@@ -1,0 +1,54 @@
+.CreadorDeHistorias {
+  /* background-color: palegreen; */
+  padding: 18px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: radial-gradient(orange, rgb(255, 111, 59));
+}
+
+.Caja__ {
+  background-position: center;
+  background-size: contain;
+}
+
+/* .Caja__Primera {
+  transform: matrix3d(0.94, 0, 0.34, 0.0002, 0, 1, 0, 0, -0.34, 0, 0.94, 0, 1, 0, 10, 1)
+}
+
+.Caja__Segunda {
+  transform: matrix3d(0.94, 0, 0.34, -0.0002, 0, 1, 0, 0, -0.34, 0, 0.94, 0, 1, 0, 10, 1)
+} */
+
+.Caja__Segunda {
+  margin-left: calc(40vw - 36px);
+}
+
+.CreadorDeHistorias p {
+  text-align: center;
+}
+
+.CreadorDeHistorias blockquote {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid #eee;
+  border-radius: 8px;
+  position: absolute;
+  padding: 4px 8px;
+
+  /* backdrop-filter: blur(15px); */
+  width: 110%;
+  overflow: hidden;
+}
+
+.CreadorDeHistorias .Caja__Primera blockquote {
+  bottom: 8px;
+  left: 8px;
+}
+
+.CreadorDeHistorias .Caja__Segunda blockquote {
+  top: 8px;
+  right: 8px;
+}
